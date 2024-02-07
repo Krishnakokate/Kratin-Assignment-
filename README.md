@@ -19,5 +19,5 @@ This is a web application built with Flask for managing health-related informati
    git clone https://github.com/your_username/health-care-app.git
 
 2. cd health-care-app
-  ```bash
+   ```bash
    cd health-care-app
