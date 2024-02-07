@@ -21,23 +21,3 @@ This is a web application built with Flask for managing health-related informati
 2. cd health-care-app
   ```bash
    cd health-care-app
-
-3. Install the dependencies:
-  ``bash
-   pip install -r requirements.txt
-
-4. Run the application:
-  ```bash
-  python app.py
-
-5. Access the application in your web browser at http://localhost:5000.
-
-
-  ## Technologies Used
-
-  - **Flask**: Python web framework for building the backend of the application.
-  - **SQLAlchemy**: SQL toolkit and Object-Relational Mapping (ORM) for database management.
-  - **Bootstrap**: Frontend framework for designing responsive and mobile-first websites.
-  - **Jinja2**: Template engine for generating HTML markup with Python in the Flask application.
-  - **JavaScript**: Used for dynamic updates in the frontend, such as countdown timers and remaining doses calculation.
-
