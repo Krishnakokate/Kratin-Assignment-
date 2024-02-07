@@ -42,15 +42,24 @@ This is a web application built with Flask for managing health-related informati
   - **Python**: Used for backend development, including Flask for web application framework and SQLAlchemy for database management.
 
    ## Outcomes :-
-   
-   ![Image Description](output/Screenshot%20(83).png)
-   ![Image Description](output/Screenshot%20(84).png)
-   ![Image Description](output/Screenshot%20(85).png)
-   ![Image Description](output/Screenshot%20(86).png)
-   ![Image Description](output/Screenshot%20(87).png)
-   ![Image Description](output/Screenshot%20(88).png)
-   ![Image Description](output/Screenshot%20(89).png)
-   ![Image Description](output/Screenshot%20(90).png)
-   ![Image Description](output/Screenshot%20(91).png)
+   1. Home page :
+         ![Image Description](output/Screenshot%20(83).png)
+   2. SignUp Page:
+         ![Image Description](output/Screenshot%20(84).png)
+   3. Forget Password :
+         ![Image Description](output/Screenshot%20(85).png)
+   4. Dashboard:
+         ![Image Description](output/Screenshot%20(86).png)
+
+   5. User Information :
+         ![Image Description](output/Screenshot%20(88).png)
+        
+   6. Medicine Remainder :
+     ![Image Description](output/Screenshot%20(89).png)
+
+   7. Eating Schedule :
+       ![Image Description](output/Screenshot%20(90).png)
+   8. Exercise Routine :
+      ![Image Description](output/Screenshot%20(91).png)
    
  
