@@ -39,4 +39,5 @@ This is a web application built with Flask for managing health-related informati
   - **Bootstrap**: Frontend framework for designing responsive and mobile-first websites.
   - **Jinja2**: Template engine for generating HTML markup with Python in the Flask application.
   - **JavaScript**: Used for dynamic updates in the frontend, such as countdown timers and remaining doses calculation.
+
    
