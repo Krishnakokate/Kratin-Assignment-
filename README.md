@@ -30,7 +30,7 @@ This is a web application built with Flask for managing health-related informati
    ```bash
   python app.py
   
-6. Access the application in your web browser at http://localhost:5000.
+5. Access the application in your web browser at http://localhost:5000.
 
   ## Technologies Used
 
