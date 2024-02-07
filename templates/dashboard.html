@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- Add Bootstrap CSS link here if you're using Bootstrap -->
+    <title>Dashboard</title>
+</head>
+
+<body class="dashboard-page">
+    <h2>Dashboard</h2>
+
+    <div class="custom-row">
+        <div class="custom-wrapper col-md-6" onclick="window.location.href='/your_info'">
+            <h3>Your Info</h3>
+            <img src="/static/images/abc.png" alt="Your Info Image" class="info-image">
+            <h2>Edit Your Info</h2>
+        </div>
+
+        <div class="custom-wrapper col-md-6" onclick="window.location.href='/your_reminders'">
+            <h3>Medical Reminders</h3>
+            <img src="/static/images/abc1.jpg" alt="Medical Reminders Image" class="reminder-image">
+            <h2>Your Routine Medicine</h2>
+        </div>
+    </div>
+
+    <div class="custom-row">
+        <div class="custom-wrapper col-md-6" onclick="window.location.href='/eating_schedule'">
+            <h3>Eating Schedule</h3>
+            <img src="/static/images/abc3.jpg" alt="Eating Schedule Image" class="eating-image">
+            <h2>Your Eating Schedule</h2>
+        </div>
+
+        <div class="custom-wrapper col-md-6" onclick="window.location.href='/your_exercise'">
+            <h3>Exercise Schedule</h3>
+            <img src="/static/images/abc2.png" alt="Exercise Schedule Image" class="exercise-image">
+            <h2>See Training Schedule</h2>
+        </div>
+    </div>
+    <div class="footer">
+      Developed by Your Krishna Kokate &copy; 2024
+  </div>
+</body>
+
+</html>

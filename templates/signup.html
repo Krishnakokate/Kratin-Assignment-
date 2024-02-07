@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/style.css">
+  <title>Sign Up</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="logo">
+      <!-- You can include the logo if needed -->
+    </div>
+    <div class="text-center mt-6 name">
+      Sign Up
+    </div>
+    <form class="p-3 mt-3" method="POST" action="/signup">
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-user"></span>
+            <input type="text" name="name" id="name" placeholder="Name">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-calendar-alt"></span>
+            <input type="text" name="age" id="age" placeholder="Age">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-venus-mars"></span>
+            <input type="text" name="gender" id="gender" placeholder="Gender">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-phone"></span>
+            <input type="text" name="contact" id="contact" placeholder="Contact Number">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="far fa-envelope"></span>
+            <input type="email" name="email" id="email" placeholder="Email">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-map-marker-alt"></span>
+            <input type="text" name="address" id="address" placeholder="Address">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-lock"></span>
+            <input type="password" name="password" id="password" placeholder="Password">
+        </div>
+        <button class="btn mt-3" type="submit">Sign Up</button>
+    </form>
+    
+    <div class="text-center fs-6">
+      <a href="{{ url_for('home') }}">Already have an account? Login</a>
+    </div>
+  </div>
+</body>
+</html>

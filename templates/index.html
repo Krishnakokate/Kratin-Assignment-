@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/style.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="logo">
+      <!-- <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png" alt=""> -->
+    </div>
+    <div class="text-center mt-6 name">
+      Kratin
+    </div>
+    <form class="p-3 mt-3" method="POST" action="{{ url_for('login') }}">
+      <div class="form-field d-flex align-items-center">
+        <span class="far fa-user"></span>
+        <input type="text" name="userName" id="userName" placeholder="Username">
+      </div>
+      <div class="form-field d-flex align-items-center">
+        <span class="fas fa-key"></span>
+        <input type="password" name="password" id="pwd" placeholder="Password">
+      </div>
+
+      <button class="btn mt-3">Login</button>
+      <div class="alert alert-danger" role="alert">
+        {% with messages = get_flashed_messages(category_filter=['danger']) %}
+            {% if messages %}
+                {{ messages[0] }}
+            {% endif %}
+        {% endwith %}
+    </div>
+    
+    </form>
+    <!-- Update the class for the flash message to 'alert-danger' -->
+    
+
+    <div class="text-center fs-6">
+      <a href="{{ url_for('signup') }}">Signup</a>
+      <a href="{{ url_for('forgot_password') }}">Forget Password</a>
+    </div>
+  </div>
+  <div class="footer">
+    Developed by Your Krishna Kokate &copy; 2024
+</div>
+</body>
+
+</html>
