@@ -41,7 +41,16 @@ This is a web application built with Flask for managing health-related informati
   - **Jinja2**: Template engine for generating HTML markup with Python in the Flask application.
   - **Python**: Used for backend development, including Flask for web application framework and SQLAlchemy for database management.
 
-   ## Outcomes
+   ## Outcomes :-
    
    ![Image Description](output/Screenshot%20(83).png)
+   ![Image Description](output/Screenshot%20(84).png)
+   ![Image Description](output/Screenshot%20(85).png)
+   ![Image Description](output/Screenshot%20(86).png)
+   ![Image Description](output/Screenshot%20(87).png)
+   ![Image Description](output/Screenshot%20(88).png)
+   ![Image Description](output/Screenshot%20(89).png)
+   ![Image Description](output/Screenshot%20(90).png)
+   ![Image Description](output/Screenshot%20(91).png)
+   
  
