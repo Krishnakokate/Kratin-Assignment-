@@ -34,6 +34,7 @@ This is a web application built with Flask for managing health-related informati
 
   ## Technologies Used
 
+  - **Python**: Used for backend development, including Flask for web application framework and SQLAlchemy for database management.
   - **Flask**: Python web framework for building the backend of the application.
   - **SQLAlchemy**: SQL toolkit and Object-Relational Mapping (ORM) for database management.
   - **Bootstrap**: Frontend framework for designing responsive and mobile-first websites.
