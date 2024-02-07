@@ -43,5 +43,5 @@ This is a web application built with Flask for managing health-related informati
 
    ## Outcomes
    
-   ![Image Description](output/Screenshot (83).png)
+   ![Image Description](output/Screenshot%20(83).png)
  
