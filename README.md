@@ -22,6 +22,7 @@ This is a web application built with Flask for managing health-related informati
   ```bash
    cd health-care-app
 
+
 3. Install the dependencies:
   ``bash
    pip install -r requirements.txt
