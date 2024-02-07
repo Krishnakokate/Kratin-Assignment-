@@ -20,11 +20,11 @@ This is a web application built with Flask for managing health-related informati
 
 2. cd health-care-app
   ```bash
-  cd health-care-app
+cd health-care-app
 
 3. Install the dependencies:
   ``bash
-  pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. Run the application:
   ```bash
